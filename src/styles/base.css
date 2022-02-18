@@ -16,7 +16,7 @@ body {
   width: 100vw;
   padding: 0 0.5em;
   background-color: #232323;
-  color: white;
+  color: rgb(243, 131, 206);
 
   a {
     color: inherit;
