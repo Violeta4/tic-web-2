@@ -9,13 +9,14 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.header {
+#header {
   display: grid;
   grid-template: 3em/ 10em 1fr;
   align-items: center;
-  width: 100vw;
+  width: 100%;
+  height: 5em;
   padding: 0 0.5em;
-  background-color: #232323;
+  background-color: #f8f5f5;
   color: rgb(243, 131, 206);
 
   a {
@@ -24,17 +25,15 @@ body {
   }
 }
 
-.menu {
-  ul {
+#menu ul{
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: end;
     gap: 1em;
-
-    li {
-      list-style: none;
-    }
-  }
+}
+#menu ul li{
+  list-style:none ;
+  padding: 0.5em;
 }
 
 section {
