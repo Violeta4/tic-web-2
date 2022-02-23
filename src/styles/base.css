@@ -1,3 +1,12 @@
+:root {
+  --color1: #ef6f29;
+  --color2: #ADCFE4;
+  --color3: #f49f70;
+  --color4: #f9cfb7;
+  --color5: #ffffff;
+  --font1: 'Courier New';
+  --font2: 'Times New Roman',
+}
 * {
   // Reset all elements
   margin: 0;
@@ -6,18 +15,18 @@
 }
 
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New',
 }
 
 #header {
   display: grid;
-  grid-template: 3em/ 10em 1fr;
+  grid-template: 5em/ 10em 1fr;
   align-items: center;
-  width: 100%;
+  width: 121%;
   height: 5em;
   padding: 0 0.5em;
-  background-color: #f8f5f5;
-  color: rgb(243, 131, 206);
+  background-color: #ADCFE4;
+  color: rgb(131, 193, 243);
 
   a {
     color: inherit;
