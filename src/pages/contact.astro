@@ -1,64 +1,12 @@
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="Violeta" />
-    <meta name="keywords" content="HTML, CSS, Astro" />
-    <title>Espacio Ideo! - Página principal</title>
-    <style>
-      *, body {  
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-     }
-    </style>
-  </head>
-  <body>
-    <div id="header">
-      <div id="logo">
-        <!-- Aquí irá el logo -->
-        <a href="/home">
-          <img src="/logo.png"/>
-        </a>
-      </div>
-      <div id="menu">
-        <!-- Aquí irá el listado de opciones -->
-        <ul>
-          <li>
-            <a href="/about">Acerca de</a>
-          </li>
-          <li>
-            <a href="/blog">Blog</a>
-          </li>
-          <li>
-            <a href="/contact">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div> <!-- header -->
-    <!-- ======= Bloque de página ======= -->
-    <div class="main">
-      <h1>Página principal</h1>
-      <p>Párrafo de la página principal</p>
-    </div>
-    <!-- ======== Pie de página ========= -->
-    <div class="foot">
-      <p>Proyecto para la asignatura de TIC de Escuela IDEO</p>
-      <p> Trabajo reaizado por:Violeta</p>
-      
-      <div class="links">
-        <ul>
-          <li>
-            <a href="/about">Acerca de</a>
-          </li>
-          <li>
-            <a href="/blog">Blog</a>
-          </li>
-          <li>
-            <a href="/contact">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </body>
-</html> 
- 
+      ---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro'
+---
+<BaseLayout title="Homepage">
+  <h1>Contacto</h1>
+  <h2>Información de contacto del autor</h2>
+  <p>Si necesitas ponerte en contacto conmigo, tienes los siguientes medios:</p>
+  <ul>
+    <li>Gmail: <a href="mailto">violeta.barthelemy@a.escuelaideo.edu.es</a></li> 
+  </ul>
+</BaseLayout>
