@@ -1,14 +1,15 @@
 @import "https://cdn.jsdelivr.net/npm/prismjs@1.24.1/themes/prism-tomorrow.css";
 
 :root {
-  --color1: #ef6f29;
-  --color2: #ADCFE4;
-  --color3: #f49f70;
-  --color4: #f9cfb7;
-  --color5: #ffffff;
+  --colorbg: rgb(244, 159, 112);
+  --color1: #ADCFE4;
+  --color2: #313026;
+  --color3: #ef6f29;
+  --color4: #f49f70;
+  --color5: #dd5a40;
+  --color6: ;
 
   --fg-dark: #ffffff;
-
   --font1: 'Times New Roman', sans-serif;
   --font2: 'Bitter', cursive;
 }
@@ -136,7 +137,7 @@ h1 a {
   font-size: 20px;
   line-height: 24px;
 
-  color: #b4290d;
+  color: #ADCFE4;
   padding-top: 24px;
   padding-bottom: 24px;
 }
