@@ -7,7 +7,7 @@
   --color3: #ef6f29;
   --color4: #f49f70;
   --color5: #dd5a40;
-  --color6: ;
+  --color6: 
 
   --fg-dark: #ffffff;
   --font1: 'Times New Roman', sans-serif;
@@ -32,7 +32,7 @@ code {
 }
 
 body {
-  background-color: var(--color1);
+  background-color: var(--color);
   color: var(--color2);
 }
 
@@ -65,17 +65,17 @@ h1 a {
 }
 
 #header {
-  background-color: var(--color4);
+  background-color: var(--color1);
   color: var(--fg-dark);
   min-height: 2em;
 }
 
 #header .container {
-  max-width: 960px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 0.5em 2em;
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 150px 1fr;
 }
 
 #header a {
@@ -150,8 +150,8 @@ h1 a {
 }
 
 .foot {
-  background-color: var(--color2);
-  color: var(--color1);
+  background-color: var(--color4);
+  color: var(--color2);
   font-size: 0.8em;
   text-align: center;
   padding: 2em;
@@ -189,18 +189,18 @@ img.logo:hover {
   filter: drop-shadow(2px 2px 2px var(--color5));
 }
 
-.list-of-arts {
+.list-of-catalogo {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 1em;
 }
 
-.art-preview {
+.catalogo-preview {
   border: 1px solid #888;
   padding: 0.5em;
 }
 
-.art-preview .art-picture {
+.catalogo-preview .catalogo-picture {
   width: 100%;
   height: 150px;
   background-color: gray;
