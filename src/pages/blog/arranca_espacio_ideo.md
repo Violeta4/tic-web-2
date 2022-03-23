@@ -2,7 +2,7 @@
 layout: ../../layouts/BlogPostLayout.astro
 title: Arranca Espacio Ideo
 draft: false
-date: 2022/02/28
+date: 2022/03/23
 short: Contamos cómo se puede crear un blog de ejemplo a partir de otro
  tipo de archivos.
 ---

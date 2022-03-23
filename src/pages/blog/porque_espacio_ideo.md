@@ -10,7 +10,3 @@ No se trata trata de una falta ortográfica. Sabemos que
 "Esp! Ideo " debería escribirse "Espacio Ideo".
 
 Aqui os enterarais porque este proyecto se llama Espacio Ideo, hemos decidido ponerle este nombre ya que nuestra escuela es un espacio donde ademas de aprender y estudiar, se viene a disfrutar, a hacer nuevos amigos, y a aprender con una metodologia diferente, por eso el nombre de Espacio Ideo. 
-
-
-
-![](https://images.squarespace-cdn.com/content/v1/5a3254202278e7f239fff96a/1534681014361-WKOCDKTVXU3Y3ZSWU3G0/ai%402x.png?format=1000w)
