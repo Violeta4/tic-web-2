@@ -2,10 +2,10 @@
 
 :root {
   --colorbg: rgb(244, 159, 112);
-  --color1: #ADCFE4;
+  --color1: #f49f70;
   --color2: #313026;
   --color3: #ef6f29;
-  --color4: #f49f70;
+  --color4: #ADCFE4;
   --color5: #dd5a40;
   --color6: 
 
@@ -31,7 +31,7 @@ code {
 }
 
 body {
-  background-color: var(--color1);
+  background-color: var(--color4);
   color: var(--color2);
 }
 
